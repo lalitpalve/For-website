@@ -1,16 +1,51 @@
 ---
-modal-id: 1
-title: Bishop's Hand
-topics: Virtual Reality, Body Ownership
-blurb: Why does your hand feel like a part of your body, but your screwdriver does not? We are investigating the mechanisms used by the brain to create a sense of ownership over the body. One of the ways that researchers study this is to measure the reactions to threats to the body. By controlling a person's visual, tactile, and movement cues of their body and the environment, we can STAB STAB STAB STAB
-header: bishopsHand.jpg
-thumbnail: bishopsHand.jpg
-people: Gaurav M., Pornthep P.
----
-## Introduction
-We can induce the feeling that a virtual hand is a part of one’s body. One of the major hurdles for understanding this illusion is that it is a phenomenological, subjective feeling. The widely accepted ways of quantifying whether a person felt the illusion - questionnaire, proprioceptive drift, and galvanic skin response to a threat - each come with shortcomings and limitations. **Problem 1 - We need a better way to measure when someone is feeling the illusion.**
+modal-id: 7
+title: Novel Vibrotactor
+topics: Virtual Reality, Haptics, Human-Machine Interface
+blurb: 
 
-Surprisingly, there has not really been a demonstration that the illusion leads to different motor behavior. Though it may seem obvious that the illusion is compelling and worth inducing, contributing to “presence” (whatever that is supposed to mean,) there has never been an experiment showing a change in movement when the illusion is being felt. **Problem 2 - We haven’t shown whether feeling the illusion actually changes the way one acts.**
+The performance of vibrotactile actuators is affected by the
+frequency and amplitude of oscillation, loading on the skin,
+and the size of the tactor-skin interface. Commercially
+available vibrotactors include eccentric rotating mass (ERM)
+devices, which have frequency and amplitude coupled, and
+linear resonant actuators (LRAs), which use a resonant
+frequency. The frequency is chosen to be easy to feel, but
+performance away from that frequency is dramatically
+diminished. It can also be difficult to assess the
+contribution of skin loading, which is one of the most
+crucial factors in actuator performance. There have been many designs for haptic feedback devices but there are still opportunities for improvement. 
+
+header: Tactor.jpg
+thumbnail: Tactor.jpg
+people: Lalit P.
+---
+
+## Introduction
+We present a vibrotactile actuator design that
+addresses four of these opportunities at once: 1) the
+capability to vary the frequency of stimulation while
+keeping amplitude constant 2) small contact area on the
+skin, for providing pinpoint locality of stimulation, but also
+for packing many stimulators into a small area 3) a novel
+means of providing constant loading (normal force pressing
+the tactor against the skin) 4) capability to customize the
+waveform of stimulation.
+
+We demonstrate that stimulation with increasing amplitude,
+and independently with increasing frequency, results in
+increased subjective intensity on the thigh. The thigh is an
+interesting target because it is one of the least sensitive
+areas of the skin but is a natural target for stimulation by a
+lower-limb sensory feedback prosthesis. The effects as we
+vary amplitude and frequency appear consistent with those
+previously observed for hand.
+
+## Application
+
+We have developed a dense array of these vibrotactors
+for use in rich sensory feedback applications, e.g. facial
+tactile stimulation integrated with virtual reality
 
 ## Media
-<iframe width="650" height="340" src="https://www.youtube.com/embed/fV_7ZzRXQIE" frameborder="0" gesture="media" allowfullscreen></iframe>
+<iframe width="650" height="340" src="https://drive.google.com/open?id=1dH3YKrOqVrKvVlMnE1DXi0YpYiV3VPHf" frameborder="0" gesture="media" allowfullscreen></iframe>
